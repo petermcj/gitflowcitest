@@ -114,6 +114,7 @@
         <artifactId>gitflow-maven-plugin</artifactId>
         <version>1.4.1</version>
         <configuration>
+          <skipFeatureVersion>true</skipFeatureVersion>
           <!-- optional configuration -->
         </configuration>
       </plugin>
