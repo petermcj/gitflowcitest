@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>se.petermcj.maven</groupId>
   <artifactId>gitflowcitest</artifactId>
-  <version>1.0.1-SNAPSHOT</version>
+  <version>1.0.1-skipFV-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <scm>
@@ -114,6 +114,7 @@
         <artifactId>gitflow-maven-plugin</artifactId>
         <version>1.4.1</version>
         <configuration>
+          <skipFeatureVersion>true</skipFeatureVersion>
           <!-- optional configuration -->
         </configuration>
       </plugin>
